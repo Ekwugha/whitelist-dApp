@@ -17,4 +17,4 @@ A better readme file will be up soon but the code comprises of lots of comments 
 
 
 
-Link to he live project on Vercel: https://whitelist-d-ml231zkqa-ekwugha.vercel.app/
+Link to the website in other to join the whitelist: https://whitelist-d-ml231zkqa-ekwugha.vercel.app/
