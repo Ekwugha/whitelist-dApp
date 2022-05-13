@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from 'next/head';
+import Image from 'next/image';
 import Web3Modal from "web3modal";
 import { providers, Contract } from "ethers";
 import { useEffect, useRef, useState } from "react";
@@ -34,9 +34,9 @@ export default function Home() {
 
       // If user is not connected to the Rinkeby network, let them know and throw an error
       const { chainId } = await web3Provider.getNetwork();
-      if (chainId !== 4) {
-        window.alert("Change the network to Rinkeby");
-        throw new Error("Change network to Rinkeby");
+      if (chainId !== 5) {
+        window.alert("Change the network to Goerli");
+        throw new Error("Change network to Goerli");
       }
 
       if (needSigner) {
@@ -196,7 +196,7 @@ export default function Home() {
       // The `current` value is persisted throughout as long as this page is open
       // N/B: Web3Modal we installed is used for connecting with the wallet
       web3ModalRef.current = new Web3Modal({
-        network: "rinkeby",
+        network: "goerli",
         providerOptions: {},
         // N/B: injected provider is the wallet that will inject the code into the browser
         disabledInjectedProvider: false,
@@ -230,7 +230,7 @@ export default function Home() {
       </div>
 
       <footer className={styles.footer}>
-        Made with &#10084; by Crypto Devs
+        Made with &#10084; by Elo
       </footer>
     </div>
   )
