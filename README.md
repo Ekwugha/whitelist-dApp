@@ -8,11 +8,15 @@ This is a whitelist project for an upcoming NFT collection I'll will be making a
 
 
 
-It usesframeworks nad libraries like hardhat, ether.js, web3modal, Alchemy, nextjs and others...
+This gives early supporters access to a whitelist for my collection, so here I am creating a whitelist dapp for Crypto Devs NFT Collection
 
 
 
-A better readme file will be up soon but the code comprises of lots of comments which can give you basic understanding
+
+It uses frameworks and libraries like hardhat, ether.js, web3modal, Alchemy, nextjs and others...
+
+ 
+
 
 
 
